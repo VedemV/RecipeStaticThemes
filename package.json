@@ -1,0 +1,19 @@
+{
+  "name": "recipe-ext-static-theme",
+  "version": "0.0.0",
+  "description": "Recipe of Sencha static themes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vo-kkm@mail.ru@github.com/VedemV/recipe-static-theme.git"
+  },
+  "author": "vedem <vo-kkm@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VedemV/recipe-ext-static-theme/issues"
+  },
+  "homepage": "https://github.com/VedemV/recipe-ext-static-theme#readme"
+}

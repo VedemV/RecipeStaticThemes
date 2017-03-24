@@ -1,7 +1,11 @@
+*.log
+
 .architect
 .sencha
 bootstrap.json
 build/
 ext/
+
 nbproject/
-*.log
+
+node_modules
