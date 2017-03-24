@@ -1,4 +1,7 @@
 .architect
+.sencha
 bootstrap.json
 build/
 ext/
+nbproject/
+*.log
