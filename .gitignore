@@ -3,6 +3,12 @@
 .architect
 .sencha
 bootstrap.json
+classic.json
+material.json
+triton.json
+modern*.json
+neptune*.json
+
 *.jsonp
 example.css
 build/

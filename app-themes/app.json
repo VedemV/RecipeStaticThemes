@@ -88,18 +88,18 @@
         "appCache": {
             "enable": false
         },
-        "resources": {
-            "path": "${build.id}/resources",
-            "shared": "resources"
-        }
-        //"framework": "${build.id}/framework.js",
         //"resources": {
-        //    "path": "./${build.id}/resources",
-        //    "images": "./${build.id}/resources/images",
-        //    "shared": "./resources",
-        //    "toolkit": "${toolkit.name}/resources",
-        //    "base": "."
-        //},
+        //    "path": "${build.id}/resources",
+        //    "shared": "resources"
+        //}
+        //"framework": "${build.id}/framework.js",
+        "resources": {
+            "path": "./${build.id}/resources",
+            "images": "./${build.id}/resources/images",
+            "shared": "./resources"
+            //"toolkit": "${toolkit.name}/resources",
+            //"base": "."
+        }
     },
     
 
@@ -111,6 +111,14 @@
         {
             "path": "resources",
             "output": "shared"
+        },
+        {
+            "path": "${theme.name}/resources/images",
+			"output": "images"
+        },
+        {
+            "path": "${toolkit.name}/${theme.name}/resources/images",
+			"output": "images"
         },
         {
             "path": "${toolkit.name}/resources"
