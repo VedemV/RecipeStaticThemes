@@ -3,6 +3,8 @@
 .architect
 .sencha
 bootstrap.json
+*.jsonp
+example.css
 build/
 ext/
 
