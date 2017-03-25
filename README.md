@@ -9,5 +9,5 @@ $ sencha -sdk sencha/sdk/ext-6.2.1 generate workspace recipe-ext-static-theme
 $ cd recipe-ext-static-theme
 $ npm install
 $ cd app-themes
-$ sencha app build -c -dev
+$ sencha app build -dev
 ```
