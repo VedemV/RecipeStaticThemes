@@ -2,22 +2,12 @@
 
 .architect
 .sencha
-bootstrap.json
-classic.json
-material.json
-triton.json
-aria.json
-cupertino.json
-gray.json
-ios.json
-mountainview.json
-windiws.json
-blackberry.json
-modern*.json
-neptune*.json
-crisp*.json
 
-*.jsonp
+app-themes/**/*.jsonp
+app-themes/**/*.json
+!app-themes/app.json
+# !app-themes/app.json
+
 example.css
 build/
 ext/
@@ -25,3 +15,18 @@ ext/
 nbproject/
 
 node_modules
+
+# bootstrap.json
+# classic.json
+# material.json
+# triton.json
+# aria.json
+# cupertino.json
+# gray.json
+# ios.json
+# mountainview.json
+# windiws.json
+# blackberry.json
+# modern*.json
+# neptune*.json
+# crisp*.json
