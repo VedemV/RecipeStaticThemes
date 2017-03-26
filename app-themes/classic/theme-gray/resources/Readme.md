@@ -1,7 +1,7 @@
-# AppThemes/classic/theme-classic/resources/images
+# AppThemes/classic/theme-gray/resources/images
 
 This folder contains the resources (for example, images) required for the application 
-when assembling with the theme `theme-classic`.
+when assembling with the theme `theme-gray`.
 
 Some images solve the problem of warnings:
 
@@ -13,3 +13,4 @@ Some images solve the problem of warnings:
 [WRN] @theme-background-image: Theme image not found: images/menu/default-menubar-scroll-top.gif
 [WRN] @theme-background-image: Theme image not found: images/menu/default-menubar-scroll-bottom.gif
 ```
+

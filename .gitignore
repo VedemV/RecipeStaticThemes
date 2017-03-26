@@ -6,8 +6,16 @@ bootstrap.json
 classic.json
 material.json
 triton.json
+aria.json
+cupertino.json
+gray.json
+ios.json
+mountainview.json
+windiws.json
+blackberry.json
 modern*.json
 neptune*.json
+crisp*.json
 
 *.jsonp
 example.css

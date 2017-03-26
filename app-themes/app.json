@@ -30,16 +30,22 @@
         "namespace": "AppThemes",
         "etc": [
             "sass/etc/all.scss",
-            "${toolkit.name}/sass/etc/all.scss"
+            "${toolkit.name}/sass/etc/all.scss",
+            "${theme.name}/sass/etc/all.scss",
+            "${toolkit.name}/${theme.name}/sass/etc/all.scss"
         ],
         "var": [
             "sass/var/all.scss",
             "sass/var",
-            "${toolkit.name}/sass/var"
+            "${toolkit.name}/sass/var",
+            "${theme.name}/sass/var",
+            "${toolkit.name}/${theme.name}/sass/var"
         ],
         "src": [
             "sass/src",
-            "${toolkit.name}/sass/src"
+            "${toolkit.name}/sass/src",
+            "${theme.name}/sass/src",
+            "${toolkit.name}/${theme.name}/sass/src"
         ]
     },
 
@@ -88,10 +94,6 @@
         "appCache": {
             "enable": false
         },
-        //"resources": {
-        //    "path": "${build.id}/resources",
-        //    "shared": "resources"
-        //}
         //"framework": "${build.id}/framework.js",
         "resources": {
             "path": "./${build.id}/resources",
@@ -102,11 +104,6 @@
         }
     },
     
-
-    /**
-     * Extra resources to be copied into the resource folder as specified in the "resources"
-     * property of the "output" object. Folders specified in this list will be deeply copied.
-     */
     "resources": [
         {
             "path": "resources",
@@ -128,40 +125,18 @@
         }
     ],
 
-    
-
-
-
-    /**
-     * Build Profiles. This object's properties are each a "build profile". You can
-     * add as many as you need to produce optimized builds for devices, themes, locales
-     * or other criteria. Your "Ext.beforeLoad" hook (see index.html) is responsible for
-     * selecting the desired build profile by setting "Ext.manifest" to one of these
-     * names.
-     *
-     *     "builds": {
-     *         "classic": {
-     *             "toolkit": "classic",
-     *             "theme": "theme-neptune"
-     *         },
-     *
-     *         "modern": {
-     *             "toolkit": "modern",
-     *             "theme": "theme-neptune"
-     *         }
-     *     }
-     *
-     */
-    
     "builds": {
         "classic": {
             "toolkit": "classic",
             "theme": "theme-classic"
         },
-/*
         "gray": {
             "toolkit": "classic",
             "theme": "theme-gray"
+        },
+        "aria": {
+            "toolkit": "classic",
+            "theme": "theme-aria"
         },
         "crisp": {
             "toolkit": "classic",
@@ -170,7 +145,7 @@
         "crisp-touch": {
             "toolkit": "classic",
             "theme": "theme-crisp-touch"
-        },*/
+        },
         "neptune": {
             "toolkit": "classic",
             "theme": "theme-neptune"
@@ -183,17 +158,15 @@
             "toolkit": "classic",
             "theme": "theme-triton"
         },
-/*
         "modern-triton": {
             "toolkit": "modern",
             "theme": "theme-triton"
         },
-*/
-        "modern": {
+        "modern-neptune": {
             "toolkit": "modern",
-            "theme": "theme-triton"
+            "theme": "theme-neptune"
         },
-        "material": {
+        "modern-material": {
             "toolkit": "modern",
             "material" : {
                 "toolbar": {
@@ -202,12 +175,28 @@
                 }
             },
             "theme": "theme-material"
-        }
-/*        "ios": {
+        },
+        "ios": {
             "toolkit": "modern",
             "theme": "theme-ios"
+        },
+        "blackberry": {
+            "toolkit": "modern",
+            "theme": "theme-blackberry"
+        },
+        "cupertino": {
+            "toolkit": "modern",
+            "theme": "theme-cupertino"
+        },
+        "mountainview": {
+            "toolkit": "modern",
+            "theme": "theme-mountainview"
+        },
+        "windows": {
+            "toolkit": "modern",
+            "theme": "theme-windows"
         }
-        "classic": {
+/*        "classic": {
             "toolkit": "classic",
             
             "theme": "theme-triton",

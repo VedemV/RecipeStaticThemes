@@ -60,22 +60,22 @@
                 }
             }
 
-            match = profile.match(/^(.+?)(?:-(en|he))$/);
-            if (match) { // "profile=triton-en"
-                profile = match[1];
-                locale = locale || match[2];
-            } else {
-                locale = locale || 'en';
-            }
+            //match = profile.match(/^(.+?)(?:-(en|he))$/);
+            //if (match) { // "profile=triton-en"
+            //    profile = match[1];
+            //    locale = locale || match[2];
+            //} else {
+            //    locale = locale || 'en';
+            //}
 
             // TODO: EXTJS-21544 - set platformTags based upon locale's text direction.
-            Ext.platformTags.rtl = locale === 'he';
+            //Ext.platformTags.rtl = locale === 'he';
             AppThemes.profileName = profile;
-            AppThemes.locale = locale;
+            //AppThemes.locale = locale;
 
-            Ext.manifest = profile; // + "-" + locale;
-            tags.test = !!params.testMode;
-            Ext.microloaderTags = tags;
+            Ext.manifest = profile + ".json"; // + "-" + locale;
+            //tags.test = !!params.testMode;
+            //Ext.microloaderTags = tags;
 			
 //            var s = location.search,  // the query string (ex "?foo=1&bar")
 //                profile;

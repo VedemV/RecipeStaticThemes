@@ -3,38 +3,54 @@
  */
 @include extjs-tab-panel-ui(
     $ui: 'navigation',
-    $ui-tab-background-color: transparent,
-    $ui-tab-background-color-over: #505050,
-    $ui-tab-background-color-active: #303030,
-    $ui-tab-background-gradient: 'none',
-    $ui-tab-background-gradient-over: 'none',
-    $ui-tab-background-gradient-active: 'none',
-    $ui-tab-color: #acacac,
-    $ui-tab-color-over: #c4c4c4,
-    $ui-tab-color-active: #fff,
-    $ui-tab-glyph-color: #acacac,
-    $ui-tab-glyph-color-over: #c4c4c4,
-    $ui-tab-glyph-color-active: #fff,
-    $ui-tab-glyph-opacity: 1,
-    $ui-tab-border-radius: 0,
-    $ui-tab-border-width: 0,
-    $ui-tab-inner-border-width: 0,
-    $ui-tab-padding: 24px,
-    $ui-tab-margin: 0,
-    $ui-tab-font-size: 15px,
-    $ui-tab-font-size-over: 15px,
-    $ui-tab-font-size-active: 15px,
-    $ui-tab-line-height: 19px,
-    $ui-tab-font-weight: bold,
-    $ui-tab-font-weight-over: bold,
-    $ui-tab-font-weight-active: bold,
-    $ui-tab-icon-width: 24px,
-    $ui-tab-icon-height: 24px,
-    $ui-tab-icon-spacing: 5px,
-    $ui-bar-background-color: #404040,
-    $ui-bar-background-gradient: 'none',
-    $ui-bar-padding: 0,
-    $ui-strip-height: 0
+    $ui-tab-background-color: $ui-navigation-tab-background-color,
+    $ui-tab-background-color-over: $ui-navigation-tab-background-color-over,
+    $ui-tab-background-color-active: $ui-navigation-tab-background-color-active,
+	
+    $ui-tab-background-gradient: $ui-navigation-tab-background-gradient,
+    $ui-tab-background-gradient-over: $ui-navigation-tab-background-gradient-over,
+    $ui-tab-background-gradient-active: $ui-navigation-tab-background-gradient-active,
+	
+    $ui-tab-color: $ui-navigation-tab-color,
+    $ui-tab-color-over: $ui-navigation-tab-color-over,
+    $ui-tab-color-active: $ui-navigation-tab-color-active,
+	
+    $ui-tab-glyph-color: $ui-navigation-tab-glyph-color,
+    $ui-tab-glyph-color-over: $ui-navigation-tab-glyph-color-over,
+    $ui-tab-glyph-color-active: $ui-navigation-tab-glyph-color-active,
+    $ui-tab-glyph-opacity: $ui-navigation-tab-glyph-opacity,
+	
+    $ui-tab-border-radius: $ui-navigation-tab-border-radius,
+    $ui-tab-border-width: $ui-navigation-tab-border-width,
+	
+    $ui-tab-inner-border-width: $ui-navigation-tab-inner-border-width,
+    $ui-tab-inner-border-width-focus: $ui-navigation-tab-inner-border-width-focus,
+    $ui-tab-inner-border-width-over: $ui-navigation-tab-inner-border-width-over,
+    $ui-tab-inner-border-width-active: $ui-navigation-tab-inner-border-width-active,
+    $ui-tab-inner-border-width-focus-over: $ui-navigation-tab-inner-border-width-focus-over,
+    $ui-tab-inner-border-width-focus-active: $ui-navigation-tab-inner-border-width-focus-active,
+    $ui-tab-inner-border-width-disabled: $ui-navigation-tab-inner-border-width-disabled,
+    $ui-tab-body-outline-width-focus: $ui-navigation-tab-body-outline-width-focus,
+	
+    $ui-tab-padding: $ui-navigation-tab-padding,
+    $ui-tab-margin: $ui-navigation-tab-margin,
+	
+    $ui-tab-font-size: $ui-navigation-tab-font-size,
+    $ui-tab-font-size-over: $ui-navigation-tab-font-size-over,
+    $ui-tab-font-size-active: $ui-navigation-tab-font-size-active,
+    $ui-tab-line-height: $ui-navigation-tab-line-height,
+    $ui-tab-font-weight: $ui-navigation-tab-font-weight,
+    $ui-tab-font-weight-over: $ui-navigation-tab-font-weight-over,
+    $ui-tab-font-weight-active: $ui-navigation-tab-font-weight-active,
+	
+    $ui-tab-icon-width: $ui-navigation-tab-icon-width,
+    $ui-tab-icon-height: $ui-navigation-tab-icon-height,
+    $ui-tab-icon-spacing: $ui-navigation-tab-icon-spacing,
+	
+    $ui-bar-background-color: $ui-navigation-bar-background-color,
+    $ui-bar-background-gradient: $ui-navigation-bar-background-gradient,
+    $ui-bar-padding: $ui-navigation-bar-padding,
+    $ui-strip-height: $ui-navigation-strip-height
 );
 
 /**
