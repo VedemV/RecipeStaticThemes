@@ -6,7 +6,6 @@
 app-themes/**/*.jsonp
 app-themes/**/*.json
 !app-themes/app.json
-# !app-themes/app.json
 
 example.css
 build/
