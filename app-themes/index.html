@@ -57,7 +57,7 @@
 				}
 				
 				if(params.modern){
-					if( tags.ios || tags.mac || tags.ipad || tags.ipod || tags.ihnone ){
+					if( tags.ios || tags.mac || tags.ipad || tags.ipod || tags.iphone ){
 						profile = 'ios';
 					} else if (tags.linux || tags.android ){
 						profile = 'modern-neptune';
@@ -73,6 +73,9 @@
 					}
 				}
             }
+			if(themes.indexOf(profile) == -1 ){
+				profile = 'classic';
+			}
             Ext.manifest = profile + ".json";
         };
     </script>

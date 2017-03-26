@@ -17,25 +17,25 @@ $ sencha app build -dev
 
 ## Usage
 
-- `http://<your_suite>/index.html`
+- `http://<your_suite>/recipe-ext-static-theme/app-themes/index.html`
 
     Autodetect of themes. See the `Ext.beforeLoad` in [app-themes/index.html](app-themes/index.html) for details.
     
-- `http://<your_suite>/index.html?classic`
+- `http://<your_suite>/recipe-ext-static-theme/app-themes/index.html?classic`
 
     Autodetect of themes for classic mode application
 
-- `http://<your_suite>/index.html?modern`
+- `http://<your_suite>/recipe-ext-static-theme/app-themes/index.html?modern`
 
     Autodetect of themes for modern mode application
 
-- `http://<your_suite>/index.html?profile=neptune`
+- `http://<your_suite>/recipe-ext-static-theme/app-themes/index.html?profile=neptune`
 
     Launching the application in the `classic` mode with the theme neptune`
 
 ## Available profiles
 
-|Profile app-themes/app.json|toolkit|theme| |
+|Profile name in [builds section](app-themes/app.json)|toolkit|theme| |
 |---|---|---|---|
 |**classic**|classic|theme-classic| |
 |**aria**|classic|theme-aria| |
