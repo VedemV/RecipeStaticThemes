@@ -17,5 +17,11 @@ Ext.define('AppThemes.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
-    }
+    },
+
+	onThemeItemDblClick: function(view, record){
+		if(record.get('profile') != Ext.manifest.profile){
+			window.location.search = '?profile=' + record.get('profile');
+		};
+	}
 });

@@ -15,7 +15,8 @@ Ext.define('AppThemes.view.main.Main', {
 
         'AppThemes.view.main.MainController',
         'AppThemes.view.main.MainModel',
-        'AppThemes.view.main.List'
+        'AppThemes.view.main.List',
+		'AppThemes.view.main.Themes'
     ],
 
     controller: 'main',
@@ -97,8 +98,8 @@ Ext.define('AppThemes.view.main.Main', {
     }, {
         title: 'Settings',
         iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype: 'mainthemes'
+        }]
     }]
 });
